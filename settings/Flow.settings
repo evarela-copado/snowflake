@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesFormulaEnforceDataAccess>false</doesFormulaEnforceDataAccess>
-    <doesFormulaGenerateHtmlOutput>true</doesFormulaGenerateHtmlOutput>
+    <doesFormulaGenerateHtmlOutput>false</doesFormulaGenerateHtmlOutput>
     <enableFlowBREncodedFixEnabled>true</enableFlowBREncodedFixEnabled>
     <enableFlowCustomPropertyEditor>false</enableFlowCustomPropertyEditor>
     <enableFlowDeployAsActiveEnabled>false</enableFlowDeployAsActiveEnabled>
@@ -11,9 +11,10 @@
     <enableFlowNullPreviousValueFix>false</enableFlowNullPreviousValueFix>
     <enableFlowPauseEnabled>false</enableFlowPauseEnabled>
     <enableFlowUseApexExceptionEmail>false</enableFlowUseApexExceptionEmail>
-    <enableLightningRuntimeEnabled>true</enableLightningRuntimeEnabled>
+    <enableInvocableFlowFixEnabled>true</enableInvocableFlowFixEnabled>
+    <enableLightningRuntimeEnabled>false</enableLightningRuntimeEnabled>
     <isAccessToInvokedApexRequired>false</isAccessToInvokedApexRequired>
-    <isApexPluginAccessModifierRespected>true</isApexPluginAccessModifierRespected>
+    <isApexPluginAccessModifierRespected>false</isApexPluginAccessModifierRespected>
     <isEnhancedFlowListViewVisible>true</isEnhancedFlowListViewVisible>
     <isFlowApexContextRetired>false</isFlowApexContextRetired>
     <isManageFlowRequiredForAutomationCharts>false</isManageFlowRequiredForAutomationCharts>

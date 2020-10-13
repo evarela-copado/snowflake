@@ -1,0 +1,5 @@
+<aura:component controller="ExpensesController">
+    <!--<aura:handler name="init" action="{!c.doInit}" value="{!this}"/>-->
+    
+    <c:campingList />
+</aura:component>

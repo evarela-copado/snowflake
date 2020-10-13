@@ -1,0 +1,15 @@
+<apex:page showHeader="false" sidebar="false" Controller="ApplicationStatus">
+   <apex:form >
+        <apex:pageBlock mode="edit" rendered="{!IF(status == null , true, false)}">
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!save}" value="Save"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="1" >
+               Enter Email: <apex:inputText value="{!textEmail}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        <apex:pageBlock rendered="{!IF(status != null , true, false)}">
+          Application Status: {!status}
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <canUsersGrantLoginAccess>true</canUsersGrantLoginAccess>
-    <enableAdminLoginAsAnyUser>true</enableAdminLoginAsAnyUser>
+    <enableAdminLoginAsAnyUser>false</enableAdminLoginAsAnyUser>
     <enableAuditFieldsInactiveOwner>false</enableAuditFieldsInactiveOwner>
-    <enableAuraSecureEvalPref>true</enableAuraSecureEvalPref>
+    <enableAuraSecureEvalPref>false</enableAuraSecureEvalPref>
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
-    <isTLSv12Required xsi:nil="true"/>
-    <isTLSv12RequiredCommunities xsi:nil="true"/>
-    <networkAccess>
-        <ipRanges>
-            <end>132.255.255.255</end>
-            <start>132.0.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <end>133.255.255.255</end>
-            <start>132.0.0.0</start>
-        </ipRanges>
-        <ipRanges>
-            <end>1.255.255.255</end>
-            <start>0.0.0.0</start>
-        </ipRanges>
-    </networkAccess>
+    <isTLSv12Required>false</isTLSv12Required>
+    <isTLSv12RequiredCommunities>false</isTLSv12RequiredCommunities>
+    <networkAccess/>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
         <enableSetPasswordInApi>true</enableSetPasswordInApi>
@@ -36,7 +23,7 @@
     <sessionSettings>
         <allowUserAuthenticationByCertificate>false</allowUserAuthenticationByCertificate>
         <canConfirmEmailChangeInLightningCommunities>false</canConfirmEmailChangeInLightningCommunities>
-        <canConfirmIdentityBySmsOnly>false</canConfirmIdentityBySmsOnly>
+        <canConfirmIdentityBySmsOnly>true</canConfirmIdentityBySmsOnly>
         <disableTimeoutWarning>false</disableTimeoutWarning>
         <enableCSPOnEmail>true</enableCSPOnEmail>
         <enableCSRFOnGet>true</enableCSRFOnGet>
@@ -50,25 +37,26 @@
         <enableLightningLogin>true</enableLightningLogin>
         <enableLightningLoginOnlyWithUserPerm>false</enableLightningLoginOnlyWithUserPerm>
         <enablePostForSessions>false</enablePostForSessions>
-        <enableSMSIdentity>false</enableSMSIdentity>
+        <enableSMSIdentity>true</enableSMSIdentity>
         <enableU2F>false</enableU2F>
         <enableUpgradeInsecureRequests>true</enableUpgradeInsecureRequests>
         <enableXssProtection>true</enableXssProtection>
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
-        <forceLogoutOnSessionTimeout>false</forceLogoutOnSessionTimeout>
-        <forceRelogin>false</forceRelogin>
+        <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
+        <forceRelogin>true</forceRelogin>
         <hasRetainedLoginHints>false</hasRetainedLoginHints>
         <hasUserSwitching>true</hasUserSwitching>
-        <hstsOnForcecomSites>true</hstsOnForcecomSites>
+        <hstsOnForcecomSites>false</hstsOnForcecomSites>
         <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
-        <lockerServiceCSP>true</lockerServiceCSP>
-        <redirectionWarning>true</redirectionWarning>
+        <lockerServiceCSP>false</lockerServiceCSP>
+        <redirectionWarning>false</redirectionWarning>
         <referrerPolicy>true</referrerPolicy>
         <requireHttpOnly>false</requireHttpOnly>
         <requireHttps>true</requireHttps>
+        <securityCentralKillSession>true</securityCentralKillSession>
         <sessionTimeout>TwoHours</sessionTimeout>
     </sessionSettings>
     <singleSignOnSettings>
@@ -78,6 +66,4 @@
         <enableSamlLogin>false</enableSamlLogin>
         <isLoginWithSalesforceCredentialsDisabled>false</isLoginWithSalesforceCredentialsDisabled>
     </singleSignOnSettings>
-    <turnTLSv11Off xsi:nil="true"/>
-    <turnTLSv11OffSites xsi:nil="true"/>
 </SecuritySettings>

@@ -8,10 +8,12 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
+    <tabs>standard-WaveHome</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-File</tabs>
+    <tabs>standard-ContentNote</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Campaign</tabs>
@@ -24,7 +26,5 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-News</tabs>
     <tabs>standard-Forecasting3</tabs>
-    <tabs>Project__c</tabs>
-    <tabs>Invoice__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

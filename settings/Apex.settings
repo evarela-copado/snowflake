@@ -12,8 +12,8 @@
     <enableCompileOnDeploy>false</enableCompileOnDeploy>
     <enableDisableParallelApexTesting>false</enableDisableParallelApexTesting>
     <enableDoNotEmailDebugLog>false</enableDoNotEmailDebugLog>
-    <enableGaplessTestAutoNum>false</enableGaplessTestAutoNum>
-    <enableMngdCtrlActionAccessPref>false</enableMngdCtrlActionAccessPref>
+    <enableGaplessTestAutoNum>true</enableGaplessTestAutoNum>
+    <enableMngdCtrlActionAccessPref>true</enableMngdCtrlActionAccessPref>
     <enableNonCertifiedApexMdCrud>false</enableNonCertifiedApexMdCrud>
     <enableSecureNoArgConstructorPref>false</enableSecureNoArgConstructorPref>
 </ApexSettings>

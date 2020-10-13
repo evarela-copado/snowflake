@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>cachedpraveen@gmail.com</contactEmail>
+    <label>CBAccount</label>
+    <oauthConfig>
+        <callbackUrl>https://eplightning-dev-ed.my.salesforce.com</callbackUrl>
+        <consumerKey>3MVG9zlTNB8o8BA0gB5PJywmerKXxv38T3FmCo6iFa6kzD1_ocXQshkRQiigbWYxmP4dGYED.HqXd2lOLHPbG</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
